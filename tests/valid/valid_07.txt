@@ -1,0 +1,10 @@
+Inicio;
+Proceso x: 5;
+Proceso y: 10;
+Si y > x:
+    Proceso mayor: y;
+Sino:
+    Proceso mayor: x;
+FinSi;
+Mostrar mayor;
+Fin;

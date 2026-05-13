@@ -1,0 +1,4 @@
+Inicio;
+Proceso y: x + 1;
+Mostrar y;
+Fin;

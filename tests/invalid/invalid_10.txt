@@ -1,0 +1,4 @@
+Inicio;
+Proceso valor: 10#;
+Mostrar valor;
+Fin;

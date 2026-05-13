@@ -1,0 +1,145 @@
+============================================================
+FLOWLANG COMPILER - REPORTE AUTOMATICO DE PRUEBAS
+============================================================
+
+[1] PRUEBAS VALIDAS
+------------------------------------------------------------
+--- valid_01.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 5
+
+--- valid_02.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 15
+
+--- valid_03.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 16
+
+--- valid_04.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 5.0
+
+--- valid_05.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 1
+
+--- valid_06.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 1
+
+--- valid_07.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 10
+
+--- valid_08.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 20
+
+--- valid_09.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 80
+
+--- valid_10.txt ---
+Estado esperado : VALIDA
+Resultado       : APROBADA
+Fases ejecutadas: Lexico, Sintactico, Semantico, IR, Python
+Archivo Python  : output_program.py
+Salida programa : 1
+
+[2] PRUEBAS INVALIDAS
+------------------------------------------------------------
+--- invalid_01.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : sintactico
+Mensaje         : Error sintactico en l�nea 2, columna 0: missing ';' at 'Proceso'
+
+--- invalid_02.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : sintactico
+Mensaje         : Error sintactico en l�nea 3, columna 0: extraneous input 'Fin' expecting ';'
+
+--- invalid_03.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : lexico
+Mensaje         : Error lexico en l�nea 2, columna 13: token recognition error at: '@'
+
+--- invalid_04.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : semantico
+Mensaje         : Error semantico en linea 2, columna 8: variable 'x' no definida.
+
+--- invalid_05.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : semantico
+Mensaje         : Error semantico en linea 2, columna 11: variable 'x' no definida.
+
+--- invalid_06.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : sintactico
+Mensaje         : Error sintactico en l�nea 8, columna 0: mismatched input 'Fin' expecting 'FinSi'
+
+--- invalid_07.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : sintactico
+Mensaje         : Error sintactico en l�nea 2, columna 0: mismatched input 'Procesar' expecting {'Fin', 'Proceso', 'Si', 'Mostrar'}
+
+--- invalid_08.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : sintactico
+Mensaje         : Error sintactico en l�nea 5, columna 0: mismatched input 'FinSi' expecting 'Sino'
+
+--- invalid_09.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : semantico
+Mensaje         : Error semantico en linea 3, columna 3: variable 'y' no definida.
+
+--- invalid_10.txt ---
+Estado esperado : INVALIDA
+Resultado       : APROBADA
+Error detectado : lexico
+Mensaje         : Error lexico en l�nea 2, columna 17: token recognition error at: '#'
+
+============================================================
+RESUMEN FINAL
+============================================================
+Total de pruebas    : 20
+Pruebas aprobadas   : 20
+Pruebas fallidas    : 0
+Archivo generado    : output.txt

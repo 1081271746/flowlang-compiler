@@ -1,0 +1,9 @@
+Inicio;
+Proceso temperatura: 30;
+Si temperatura > 25:
+    Proceso alerta: 1;
+Sino:
+    Proceso alerta: 0;
+FinSi;
+Mostrar alerta;
+Fin;

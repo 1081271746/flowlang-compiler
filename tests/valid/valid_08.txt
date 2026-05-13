@@ -1,0 +1,6 @@
+Inicio;
+Proceso x: 2;
+Proceso y: 3;
+Proceso z: (x + y) * 4;
+Mostrar z;
+Fin;

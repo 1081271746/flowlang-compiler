@@ -1,0 +1,9 @@
+Inicio;
+Proceso edad: 18;
+Si edad >= 18:
+    Proceso resultado: 1;
+Sino:
+    Proceso resultado: 0;
+FinSi;
+Mostrar resultado;
+Fin;

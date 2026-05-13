@@ -1,0 +1,4 @@
+Inicio;
+Proceso x: 5;
+Mostrar x;
+Fin;

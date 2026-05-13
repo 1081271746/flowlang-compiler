@@ -1,0 +1,9 @@
+Inicio;
+Proceso nota: 3;
+Si nota >= 3:
+    Proceso estado: 1;
+Sino:
+    Proceso estado: 0;
+FinSi;
+Mostrar estado;
+Fin;

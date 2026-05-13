@@ -1,0 +1,5 @@
+Inicio;
+Proceso x: 10;
+Proceso y: x + 5;
+Mostrar y;
+Fin;

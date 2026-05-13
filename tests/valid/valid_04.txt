@@ -1,0 +1,6 @@
+Inicio;
+Proceso x: 20;
+Proceso y: 4;
+Proceso z: x / y;
+Mostrar z;
+Fin;

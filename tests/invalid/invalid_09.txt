@@ -1,0 +1,9 @@
+Inicio;
+Proceso x: 5;
+Si y > 0:
+    Proceso z: 1;
+Sino:
+    Proceso z: 0;
+FinSi;
+Mostrar z;
+Fin;

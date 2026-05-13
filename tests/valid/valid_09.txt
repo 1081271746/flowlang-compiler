@@ -1,0 +1,6 @@
+Inicio;
+Proceso total: 100;
+Proceso descuento: 20;
+Proceso final: total - descuento;
+Mostrar final;
+Fin;

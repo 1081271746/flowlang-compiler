@@ -1,0 +1,6 @@
+Inicio;
+Proceso a: 8;
+Proceso b: 2;
+Proceso c: a * b;
+Mostrar c;
+Fin;
